@@ -5,6 +5,7 @@ argenmap;db_publicacion_argenmap;argenmap;areas_de_glaciologia;;areas_de_glaciol
 argenmap;db_publicacion_argenmap;argenmap;areas_de_zona_costera;;areas_de_zona_costera;areas_de_zona_costera;;3857;gid;;;;;;
 argenmap;db_publicacion_argenmap;argenmap;departamento;;departamento;departamento;;3857;gid;;;;;;
 argenmap;db_publicacion_argenmap;argenmap;etiquetas_paises;;etiquetas_paises;etiquetas_paises;;3857;id;;;;;;
+argenmap;db_publicacion_argenmap;argenmap;etiquetas_provincias;;etiquetas_provincias;etiquetas_provincias;;3857;gid;;;;;provincias_etiquetas_capa_base;
 argenmap;db_publicacion_argenmap;argenmap;linea_de_limite;;linea_de_limite;linea_de_limite;;3857;gid;;;;;;
 argenmap;db_publicacion_argenmap;argenmap;lineas_de_aguas_continentales;;lineas_de_aguas_continentales;lineas_de_aguas_continentales;;3857;gid;;;;;;
 argenmap;db_publicacion_argenmap;argenmap;lineas_de_geomorfologia;;lineas_de_geomorfologia;lineas_de_geomorfologia;;3857;gid;;;;;;
@@ -25,7 +26,6 @@ argenmap;db_publicacion_argenmap;argenmap;ne_10m_bathymetry_l_0;;ne_10m_bathymet
 argenmap;db_publicacion_argenmap;argenmap;osm_plazas;;osm_plazas;osm_plazas;;3857;gid;;;;;;
 argenmap;db_publicacion_argenmap;argenmap;osm_vial;;osm_vial;osm_vial;;3857;osm_id;;;;;;
 argenmap;db_publicacion_argenmap;argenmap;pais;;pais;pais;;3857;gid;;;;;;
-argenmap;db_publicacion_argenmap;argenmap;provincia;;provincia;provincia;;3857;gid;;;;;;
 argenmap;db_publicacion_argenmap;argenmap;puntos_de_asentamientos_y_edificios;;puntos_de_asentamientos_y_edificios;puntos_de_asentamientos_y_edificios;;3857;gid;;;;;;
 argenmap;db_publicacion_argenmap;argenmap;puntos_de_geomorfologia;;puntos_de_geomorfologia;puntos_de_geomorfologia;;3857;gid;;;;;;
 argenmap;db_publicacion_argenmap;argenmap;red_vial_nacional_dnv;;red_vial_nacional_dnv;red_vial_nacional_dnv;;3857;gid;;;;;;
@@ -432,7 +432,7 @@ bahra_aglomerados;db_publicacion_externos;externos;bahra_v2;;gran_san_luis;Gran 
 bahra_aglomerados;db_publicacion_externos;externos;bahra_v2;;gran_santa_rosa;Gran Santa Rosa;;4326;gid;cod_aglo;0029;gid,geom, cod_pcia, nom_pcia, cod_depto, nom_depto, código, nombre, tipo, cod_aglo, nom_aglo, cod_agl, nom_agl, lat_gs, long_gs;;bahra_aglo_29;rosa2.svg
 bahra;db_publicacion_externos;externos;bahra_v2;;bahra_base_antartica;Base antártica;orden:3;4326;gid;tipo;Base Antártica;gid,geom, cod_pcia, nom_pcia, cod_depto, nom_depto, código, nombre, tipo, cod_aglo, nom_aglo, cod_agl, nom_agl, lat_gs, long_gs;Conjunto de instalaciones, servicios y viviendas destinadas a fines científicos en el Continente Antártico.;base_antartica_bahra;base_antartica.svg
 bahra;db_publicacion_externos;externos;bahra_v2;;bahra_entidad;Entidad;orden:1;4326;gid;tipo;Entidad;gid,geom, cod_pcia, nom_pcia, cod_depto, nom_depto, código, nombre, tipo, cod_aglo, nom_aglo, cod_agl, nom_agl, lat_gs, long_gs;Subdivisión de una localidad según legislación del gobierno local.;entidad_bahra;entidad.svg
-bahra;db_publicacion_externos;externos;bahra_v2;;localidad_bahra;Localidad;orden:0;4326;gid;tipo;Localidad simple or Componente de localidad compuesta;gid,geom, cod_pcia, nom_pcia, cod_depto, nom_depto, código, nombre, tipo, cod_aglo, nom_aglo, cod_agl, nom_agl, lat_gs, long_gs;Superficie terrestre caracterizada por la continuidad de áreas edificadas y no edificadas conectadas entre sí por una red de calles donde se concentra población.;localidad_bahra;localidad.svg
+bahra;db_publicacion_externos;externos;bahra_v2;;localidad_bahra;Localidad;orden:0;4326;gid;;tipo = 'Localidad simple' or tipo = 'Componente de localidad compuesta';gid,geom, cod_pcia, nom_pcia, cod_depto, nom_depto, código, nombre, tipo, cod_aglo, nom_aglo, cod_agl, nom_agl, lat_gs, long_gs;Superficie terrestre caracterizada por la continuidad de áreas edificadas y no edificadas conectadas entre sí por una red de calles donde se concentra población.;localidad_bahra;localidad.svg
 bahra;db_publicacion_externos;externos;bahra_v2;;bahra_paraje;Paraje;orden:2;4326;gid;tipo;Paraje;gid,geom, cod_pcia, nom_pcia, cod_depto, nom_depto, código, nombre, tipo, cod_aglo, nom_aglo, cod_agl, nom_agl, lat_gs, long_gs;Lugar situado en un área rural que se identifica con un topónimo, usualmente de límites no definidos, donde puede habitar población en forma permanente o temporaria.;paraje_bahra;paraje.svg
 unidades-territoriales;db_publicacion_public;public;linea_de_limite;;limites_internacionales;Internacionales;;4326;gid;entidad;11;gid,geom,fna;;;
 unidades-territoriales;db_publicacion_public;public;linea_de_limite;;limites_provinciales;Provinciales;;4326;gid;entidad;10;gid,geom,fna;;;
