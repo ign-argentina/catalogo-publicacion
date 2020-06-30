@@ -315,7 +315,7 @@ departamento_visor;limites;;
 limite_internacional_visor;limites;;
 provincia_visor;limites;;
 zona_de_frontera_visor;limites;;
-mdt_5m_visor;modelos-digitales-elevaciones;;
+mde_5m_visor;modelos-digitales-elevaciones;;
 mde_5m_visor;modelos-digitales-elevaciones;;
 mde_mdt_externos_visor;modelos-digitales-elevaciones;;
 mde_mdt_externos_visor;modelos-digitales-elevaciones;;
