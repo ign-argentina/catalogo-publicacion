@@ -254,7 +254,7 @@ limites;departamento_FA001;departamento_visor;
 limites;linea_de_limite_FA004;limite_internacional_visor;
 limites;provincia_FA003;provincia_visor;
 limites;zona_de_frontera_070113;zona_de_frontera_visor;
-modelos-digitales-elevaciones;mdt_5m;mdt_5m_visor;
+modelos-digitales-elevaciones;mdt_5m;mde_5m_visor;
 modelos-digitales-elevaciones;mde_5m;mde_5m_visor;
 modelos-digitales-elevaciones;mdt_externos;mde_mdt_externos_visor;
 modelos-digitales-elevaciones;mde_externos;mde_mdt_externos_visor;
