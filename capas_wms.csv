@@ -1,0 +1,3 @@
+argenmap;topo_ar;https://imagenes.ign.gob.ar/geoserver/mapa_base_topoAr/ows?service=wms&version=1.3.0&request=GetCapabilities;;topoar_zoomalto;TopoAr Zoom Alto;;;3857;
+argenmap;topo_ar;https://imagenes.ign.gob.ar/geoserver/mapa_base_topoAr/ows?service=wms&version=1.3.0&request=GetCapabilities;;topoar_zoombajo;TopoAr Zoom Bajo;;;3857;
+argenmap;topo_ar;https://imagenes.ign.gob.ar/geoserver/mapa_base_topoAr/ows?service=wms&version=1.3.0&request=GetCapabilities;;islas_del_sur;Islas del Sur;;;3857;
