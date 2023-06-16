@@ -1,3 +1,4 @@
-argenmap;topo_ar;https://imagenes.ign.gob.ar/geoserver/mapa_base_topoAr/ows?service=wms&version=1.3.0&request=GetCapabilities;;topoar_zoomalto;TopoAr Zoom Alto;;;3857;
-argenmap;topo_ar;https://imagenes.ign.gob.ar/geoserver/mapa_base_topoAr/ows?service=wms&version=1.3.0&request=GetCapabilities;;topoar_zoombajo;TopoAr Zoom Bajo;;;3857;
-argenmap;topo_ar;https://imagenes.ign.gob.ar/geoserver/mapa_base_topoAr/ows?service=wms&version=1.3.0&request=GetCapabilities;;islas_del_sur;Islas del Sur;;;3857;
+argenmap;topoar_2;https://imagenes.ign.gob.ar/geoserver/mapa_base_topoAr_v2/ows?service=wms&version=1.3.0&request=GetCapabilities;;topoar_2;Mapa Base TopoAr_v2;;;3857;
+argenmap;topoar_2;https://imagenes.ign.gob.ar/geoserver/mapa_base_topoAr_v2/ows?service=wms&version=1.3.0&request=GetCapabilities;;Antartida;Antartida;;;3857;
+argenmap;topoar_2;https://imagenes.ign.gob.ar/geoserver/mapa_base_topoAr_v2/ows?service=wms&version=1.3.0&request=GetCapabilities;;IslasSur;Islas del Sur;;;3857;
+argenmap;topoar_2;https://imagenes.ign.gob.ar/geoserver/mapa_base_topoAr_v2/ows?service=wms&version=1.3.0&request=GetCapabilities;;malvinas;Malvinas;;;3857;
